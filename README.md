@@ -48,7 +48,7 @@ If you want to increase or decrease the workers number, you can try to find this
 ![Captura de tela de 2025-02-08 18-51-18](https://github.com/user-attachments/assets/73cda3eb-0d22-4115-8d24-0b7b2914e05a)
 
 
-If you want to incresa or decrese the wordlist size, you can try to find this line and modify the value
+If you want to increase or decrease the wordlist size, you can try to find this line and modify the value
 
 ![Captura de tela de 2025-02-08 18-55-43](https://github.com/user-attachments/assets/17e1079d-d31f-4e20-8463-3a5d01413e06)
 
