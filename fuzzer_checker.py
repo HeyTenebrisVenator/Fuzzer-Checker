@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
@@ -72,7 +73,7 @@ def start_script():
                         sys.exit(1)
                 elif option_name == "install":
                      os.system('sudo apt-get install -y ffuf')
-                     os.system('sudo cp fuzzer_checker.py /usr/local/bin')
+                     os.system('sudo cp fuzzer_checker.py /usr/local/bin/fuzzer_checker; sudo chmod 777 /usr/local/bin/fuzzer_checker')
                 else:
                     print(f"Unknown option: {option_name}")
                     sys.exit(1)
