@@ -74,6 +74,7 @@ def start_script():
                 elif option_name == "install":
                      os.system('sudo apt-get install -y ffuf')
                      os.system('sudo cp fuzzer_checker.py /usr/local/bin/fuzzer_checker; sudo chmod 777 /usr/local/bin/fuzzer_checker')
+                     sys.exit(1)
                 else:
                     print(f"Unknown option: {option_name}")
                     sys.exit(1)
